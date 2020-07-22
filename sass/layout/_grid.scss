@@ -30,6 +30,12 @@ $spaceamounts: (1, 2, 3, 4, 5);
   .m-#{$space} {
     margin: #{$space}rem;
   }
+  .mb-#{$space} {
+    margin-bottom: #{$space}rem;
+  }
+  .mt-#{$space} {
+    margin-top: #{$space}rem;
+  }
 
   .my-#{$space} {
     margin: #{$space}rem 0;
