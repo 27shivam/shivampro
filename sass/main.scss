@@ -93,3 +93,8 @@
 @import "layout/footer";
 @import "layout/wrapper";
 @import "layout/menu";
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  display: none;
+}

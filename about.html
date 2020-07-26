@@ -9,6 +9,8 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="./css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
     <noscript><link rel="stylesheet" href="./css/noscript.min.css" /></noscript>
   </head>
@@ -75,6 +77,31 @@
               <br />
               Thankyou.
             </p>
+            <div class="owl-carousel">
+              <div><img src="./images/logos/bt.png" alt="" /></div>
+              <div><img src="./images/logos/buzzok.png" alt="" /></div>
+              <div><img src="./images/logos/cafeunplug.png" alt="" /></div>
+              <div><img src="./images/logos/digihive.png" alt="" /></div>
+              <div><img src="./images/logos/dramezone.png" alt="" /></div>
+              <div><img src="./images/logos/f&L.png" alt="" /></div>
+              <div><img src="./images/logos/fair_l.png" alt="" /></div>
+              <div><img src="./images/logos/ganpati.png" alt="" /></div>
+              <div><img src="./images/logos/gyan.png" alt="" /></div>
+              <div><img src="./images/logos/hero.png" alt="" /></div>
+              <div><img src="./images/logos/hounds.png" alt="" /></div>
+              <div><img src="./images/logos/kindersmile.png" alt="" /></div>
+              <div><img src="./images/logos/lhagro.png" alt="" /></div>
+              <div><img src="./images/logos/mahindra.png" alt="" /></div>
+              <div><img src="./images/logos/mintsolar.png" alt="" /></div>
+              <div><img src="./images/logos/mr-brown.png" alt="" /></div>
+              <div><img src="./images/logos/packing_shaking.png" alt="" /></div>
+              <div><img src="./images/logos/radicallabs.png" alt="" /></div>
+              <div><img src="./images/logos/redbrigrad.png" alt="" /></div>
+              <div><img src="./images/logos/sazz.png" alt="" /></div>
+              <div><img src="./images/logos/ssk.png" alt="" /></div>
+              <div><img src="./images/logos/t4f.png" alt="" /></div>
+              <div><img src="./images/logos/thebuttoncafe.png" alt="" /></div>
+            </div>
           </div>
         </section>
       </div>
@@ -171,6 +198,34 @@
 
     <!-- Scripts -->
     <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          responsiveClass: true,
+          autoplay: true,
+          autoplayTimeout: 2000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: true,
+            },
+            600: {
+              items: 3,
+              nav: false,
+            },
+            1000: {
+              items: 7,
+              nav: true,
+              loop: false,
+            },
+          },
+        });
+      });
+    </script>
     <script src="./js/jquery.scrolly.min.js"></script>
     <script src="./js/jquery.scrollex.min.js"></script>
     <script src="./js/browser.min.js"></script>
